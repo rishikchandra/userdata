@@ -1,0 +1,27 @@
+<div class="first">
+    <form class=p1> 
+    <h1>Add User</h1>
+    <label for="firstName">First Name:</label>
+    <input #firstName (keyup.enter)="firstName.value; firstName.value='' ">
+    <br>
+    
+
+    <label for="lastName">Last Name:</label>
+    <input #lastName (keyup.enter)="lastName.value; lastName.value=''">
+    <br>
+    
+
+    <button type="button" class="btn btn-primary" (click)="onClick(firstName.value,lastName.value)">submit</button>
+    </form>
+    
+</div>
+
+
+
+
+
+
+
+
+
+

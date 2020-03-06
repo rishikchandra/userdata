@@ -1,0 +1,12 @@
+.first{
+    border : 1px ridge;
+    width: 350px;
+    height: 200px;
+    display:flex;
+    float:left;
+    padding: 10px;
+}
+
+button{
+    background-color: lightblue;
+}

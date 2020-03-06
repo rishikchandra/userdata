@@ -1,0 +1,13 @@
+<div class="first"> 
+     <h1>Users</h1>
+    <br>
+    
+    <div class="list-group" *ngFor="let itms of childProperty; let even=even; let odd=odd;" >
+    <li class="list-group-item" [ngClass]="{ odd:odd, even:even } ">{{itms}}
+    <button  class="btn btn-default btn-sm " (click)="sub(itms)">
+        <span class="glyphicon glyphicon-trash" style="color:red"></span>
+    </button></li>
+</div>  
+</div> 
+
+
